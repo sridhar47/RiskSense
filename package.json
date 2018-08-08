@@ -1,0 +1,19 @@
+{
+  "name": "risksense",
+  "version": "1.0.0",
+  "description": "risksense task",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --inspect server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "install": "^0.12.1",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7"
+  }
+}

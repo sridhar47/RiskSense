@@ -1,0 +1,17 @@
+<div id="viz"></div>
+
+<script>
+	var data = <%- JSON.stringify(records) %>;
+	window.vizApply({
+		container: "#viz",
+		data: data,
+		type: "tree_map",
+		id: "targetport",
+		size: "targets",
+		tooltip: ["rank", "targetport", "records", "targets", "sources"],
+		color: {
+			"range": ["red"],
+			"value": "rank"
+		}
+	})
+</script>
