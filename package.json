@@ -4,7 +4,7 @@
   "description": "risksense task",
   "main": "server.js",
   "scripts": {
-    "start": "node --inspect server.js"
+    "start": "node --inspect server.js",
     "start-prod": "node server.js"
   },
   "author": "",
